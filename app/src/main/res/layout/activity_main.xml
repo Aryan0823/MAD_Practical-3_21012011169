@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginHorizontal="20dp"
-        app:cardBackgroundColor="#E7DCFB"
+        app:cardBackgroundColor="#F3EEFB"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView">
 
@@ -35,6 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Email Id"
+                android:textStyle="bold"
                 app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextEmailAddress"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -55,6 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Password"
+                android:textStyle="bold"
                 app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPassword"
                 tools:layout_editor_absoluteX="1dp" />
 
@@ -64,6 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
                 android:text="Forgot Password?"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
